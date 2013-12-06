@@ -9,7 +9,7 @@ $(call inherit-product, vendor/oct/config/gsm.mk)
 # Inherit some common Oct stuff.
 $(call inherit-product, vendor/oct/config/common_full_phone.mk)
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=jfltetmo TARGET_DEVICE=jfltetmo BUILD_FINGERPRINT="samsung/oct_jfltetmo/jfltetmo:4.4/KRT16S/user/release-keys" PRIVATE_BUILD_DESC="jfltetmo-user 4.4 KRT16S release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=jfltetmo TARGET_DEVICE=jfltetmo BUILD_FINGERPRINT="samsung/oct_jfltetmo/jfltetmo:4.4.1/KOT49E/user/release-keys" PRIVATE_BUILD_DESC="jfltetmo-user 4.4.1 KOT49E release-keys"
 
 PRODUCT_NAME := oct_jfltetmo
 PRODUCT_DEVICE := jfltetmo
